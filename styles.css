@@ -40,7 +40,8 @@ main{
     background-color: hsl(276, 55%, 52%);
     height:900px;
     width: 400px;
-    border-radius:0 0 300px 0%;
+    border-radius:0 0 300px 300px;
+    position: relative;
     
 }
 .phone-container{
@@ -50,7 +51,16 @@ main{
     height: 600px;
     width:300px;
     display: flex;
+    margin-top:200px;
+    margin-left: 300px;
+ 
+    position: absolute;
     
+}
+.hyphen{
+    color: hsl(0, 0%, 100%);
+    font-size: 13px;
+    padding-top:7px;
 }
 .phone-container2{
     padding: 5px;
@@ -82,6 +92,8 @@ main{
 .first-container img{
     border-radius: 50%;
     height:30px;
+    border: 1px solid hsl(0, 0%, 100%);
+    
 }
 .container{
     color:hsl(276, 55%, 52%);
@@ -89,7 +101,7 @@ main{
     padding: 10px;
     background-color: hsl(206, 6%, 79%);
     margin: 10px;
-    width: 80%;
+    width: 60%;
     /* font-size: 12px; */
     
 }
@@ -97,6 +109,8 @@ main{
 height: 50px;
 border-radius: 5px;
 padding: 2px;
+
+
 
 }
 
@@ -109,9 +123,64 @@ padding: 2px;
     
 
 }
+
+
+.bar{
+    background:linear-gradient( 45deg,hsl(293, 100%, 63%) , hsl(264, 100%, 61%));
+    margin:10px;
+    padding: 10px; 
+    border-radius: 15px;
+    width: 70%;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+}
+
+.bar span{
+    font-weight: 600;
+    padding: 0 32px 0 ;
+    font-size: 13px;
+  
+   
+}
+.bar2 span{
+    padding:0 49px 0;
+}
+.bar .talk{
+    font-size: 10px;
+    font-weight: 400;
+    opacity: 50%;
+    
+
+}
+.message{
+    background-color: hsl(0, 0%, 100%);
+    opacity: 30%;
+    padding:15px;
+    margin: 0 5px;
+}
+
 .right{
     margin-left: 50px;
+    
+}
+.last-container{
+    margin: 300px 300px 200px 200px;
+    padding:110px;
 }
 .paragraph{
-    line-height: 1.5;
+    line-height: 2;
+    opacity: 50%;
+    font-size: 16px;
+
+}
+.simple{
+    color: hsl(271, 36%, 24%);
+    padding-bottom: 15px;
+}
+.bottom-border{
+    background: hsl(271, 36%, 24%);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
 }
